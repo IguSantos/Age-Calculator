@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+  
+  <title>Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <div id="container">
+    <form>
+      <div class="header__page">
+        <label  for="dayInput">DAY<input type="number"  id="dayInput" placeholder="DD">   <small class="error"></small></label>
+  
+        <label for="monthInput">MONTH
+          <input type="number"  id="monthInput" placeholder="MM" >    <small class="error__month"></small>
+        </label>
+      
+
+        <label for="yearInput">YEAR<input type="number" id="yearInput" placeholder="YYYY" >    <small class="error__year"></small></label>
+
+      </div>
+
+
+      <button id="submit-btn"  type="submit" ><svg xmlns="http://www.w3.org/2000/svg" width="46" height="30px" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+    </form>
+
+    <main>
+      <h1 ><span id="displayYear">--</span>years</h1>
+      <h1 ><span id="displayMonth">--</span>months</h1>
+      <h1 ><span id="displayDay">--</span>days</h1>
+    </main>
+  </div>
+
+
+
+
+</body>
+</html>
